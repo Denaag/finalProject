@@ -9,8 +9,8 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import ContactPage from './components/contact-us';
 import AboutPage from './components/about';
 import PageNotFound from './components/page-not-found';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // if you using bootstrap style it's affecting our exiting style. so we need to rebuild our syle as you want
-{/* The following line can be included in your src/index.js or App.js file*/}
+// import 'bootstrap/dist/css/bootstrap.min.css'; // if bootstrap style it's affecting the exiting style. so we need to rebuild style as wanted
+{/* The following line can be included in src/index.js or App.js file*/}
 
 
 const root = ReactDOM.createRoot(document.getElementById('root')); //ReactDom is used to render our components and entire app - into the real DOM, the div with ID of root on index.html
